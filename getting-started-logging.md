@@ -19,10 +19,10 @@ lastupdated: "2017-11-16"
 
 # Controlling request logging for {{site.data.keyword.watson}} services
 
-By default, all {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared or made public.
+By default, all {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared outside of IBM or made public.
 {: shortdesc}
 
-If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be logged, you can opt out of logging.
+If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be shared with IBM for service improvements, you can opt out of sharing data with IBM.
 
 To prevent {{site.data.keyword.IBM_notm}} from accessing your data for general service improvements, set the header parameter `X-Watson-Learning-Opt-Out` to `true` or `1` for the request. (Any value other than false or 0 disables request logging for that call.) You must set the header on each request that you do not want {{site.data.keyword.IBM_notm}} to access for general service improvements.
 
